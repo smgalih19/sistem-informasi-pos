@@ -1,5 +1,5 @@
 body {
-  background-color: white;
+  background-color: #4e73df;
 }
 
 .login {
@@ -19,14 +19,14 @@ body {
 
 .login h1 {
   text-align: center;
-  color: #627aa6;
+  color: #4e73df;
   font-size: 30px;
   margin-bottom: 10px;
 }
 
 .login p {
   text-align: center;
-  color: #627aa6;
+  color: #4e73df;
   font-family: "Courier Prime", monospace;
 }
 
@@ -35,7 +35,7 @@ body {
 }
 
 .login label {
-  color: #848484;
+  color: #4e73df;
   font-family: "Courier Prime", monospace;
 }
 
@@ -48,7 +48,7 @@ body {
 
 .input input {
   font-size: 20px;
-  color: #00bcd4;
+  color: #4e73df;
   border: none;
   width: 100%;
   outline: none;
@@ -62,7 +62,7 @@ body {
   width: 40%;
   height: 45px;
   border: none;
-  background-color: #627aa6;
+  background-color: #4e73df;
   color: whitesmoke;
   outline: none;
   cursor: pointer;
