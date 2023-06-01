@@ -104,6 +104,10 @@ body {
   text-shadow: 1px 1px #000;
 }
 
+.card-body img {
+  width: 15%;
+}
+
 .footer {
   background-color: #4e73df !important;
 }
@@ -128,4 +132,18 @@ body {
   }
 
   /* Akhir Bagian Panel */
+
+  .card h5 {
+    color: orange;
+    text-shadow: 1px 1px #000;
+  }
+
+  .card-body img {
+    width: 10%;
+  }
+
+  .footer {
+    background-color: #4e73df !important;
+    text-align: center;
+  }
 }
