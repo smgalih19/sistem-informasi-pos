@@ -10775,21 +10775,21 @@ a.text-secondary:hover {
 }
 
 .text-success {
-  color: #1cc88a !important
+  color: #f6c23e !important
 }
 
 a.text-success:focus,
 a.text-success:hover {
-  color: #13855c !important
+  color: #f6c23e !important
 }
 
 .text-info {
-  color: #36b9cc !important
+  color: #1cc88a !important
 }
 
 a.text-info:focus,
 a.text-info:hover {
-  color: #258391 !important
+  color: #1cc88a !important
 }
 
 .text-warning {
