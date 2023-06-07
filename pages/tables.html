@@ -21,12 +21,11 @@
     <div id="wrapper">
         <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
             <a class="sidebar-brand d-flex align-items-center justify-content-center" href="../index.html">
-                <div class="sidebar-brand-icon rotate-n-15">
-                    <i class="fas fa-laugh-wink"></i>
+                <div class="sidebar-brand-icon">
+                    <img style="width: 50%; margin-top: 20px;" src="../assets/images/logoposnav.png" alt="">
                 </div>
-                <div class="sidebar-brand-text mx-3">SIPOS<sup>Soeta</sup></div>
             </a>
-
+            <br>
             <hr class="sidebar-divider my-0">
 
             <!-- Navbar Item Dashboard-->
@@ -156,7 +155,7 @@
                                 </a>
                                 <a class="dropdown-item" href="#">
                                     <i class="fas fa-list fa-sm fa-fw mr-2 text-gray-400"></i>
-                                    Activity Log
+                                    Log Aktivitas
                                 </a>
                                 <div class="dropdown-divider"></div>
                                 <a class="dropdown-item" href="#" data-toggle="modal" data-target="#logoutModal">
@@ -172,11 +171,14 @@
                 <!-- Begin Page Content -->
                 <div class="container-fluid">
                     <h1 class="h3 mb-2 text-gray-800">Tabel</h1>
-                    <p class="mb-4">Data Pengiriman Barang di Warehouse Telkomsel Pos Indonesia
-
+                    <p class="mb-4">Data Pengiriman Barang Kerjasama <strong>Warehouse Telkomsel</strong> dengan
+                        <strong>Pos
+                            Indonesia</strong> Soekarno
+                        Hatta Bandung
                     <div class="mb-4">
-                        <a href="#" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm"><i
-                                class="fas fa-download fa-sm text-white-50"></i> Unduh Laporan Dashboard</a>
+                        <a onclick="window.open('unduh.html','_blank')"
+                            class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm"><i
+                                class="fas fa-download fa-sm text-white-50"></i> Unduh Laporan Tabel</a>
                     </div>
 
                     <!-- Data Tables-->
@@ -192,6 +194,7 @@
                                             <th>Tgl Pengiriman</th>
                                             <th>Berat(Kg)</th>
                                             <th>Status</th>
+                                            <th>Aksi</th>
                                         </tr>
                                     </thead>
                                     <tbody>
@@ -201,7 +204,9 @@
                                             <td>KARTU TELKOMSEL</td>
                                             <td>2023/05/20</td>
                                             <td>1</td>
-                                            <td><button type="button" class="btn btn-success">Success</button>
+                                            <td><button type="button" class="btn btn-success btn-sm">Success</button>
+                                            <td><button type="button" class="btn btn-outline-secondary btn-sm"
+                                                    data-toggle="modal" data-target="#detailModal">Detail</button>
                                             </td>
                                         </tr>
                                         <tr>
@@ -210,7 +215,10 @@
                                             <td>KARTU TELKOMSEL</td>
                                             <td>2023/05/20</td>
                                             <td>1</td>
-                                            <td><button type="button" class="btn btn-success">Success</button></td>
+                                            <td><button type="button" class="btn btn-success btn-sm">Success</button>
+                                            </td>
+                                            <td><button type="button" class="btn btn-outline-secondary btn-sm"
+                                                    data-toggle="modal" data-target="#detailModal">Detail</button>
                                         </tr>
                                         <tr>
                                             <td>POS-00012347</td>
@@ -218,7 +226,10 @@
                                             <td>KARTU TELKOMSEL</td>
                                             <td>2023/05/20</td>
                                             <td>1</td>
-                                            <td><button type="button" class="btn btn-success">Success</button></td>
+                                            <td><button type="button" class="btn btn-success btn-sm">Success</button>
+                                            </td>
+                                            <td><button type="button" class="btn btn-outline-secondary btn-sm"
+                                                    data-toggle="modal" data-target="#detailModal">Detail</button>
                                         </tr>
                                         <tr>
                                             <td>POS-00012348</td>
@@ -226,7 +237,10 @@
                                             <td>KARTU TELKOMSEL</td>
                                             <td>2023/05/20</td>
                                             <td>1</td>
-                                            <td><button type="button" class="btn btn-warning">Process</button></td>
+                                            <td><button type="button" class="btn btn-warning btn-sm">Process</button>
+                                            </td>
+                                            <td><button type="button" class="btn btn-outline-secondary btn-sm"
+                                                    data-toggle="modal" data-target="#detailModal">Detail</button>
                                         </tr>
                                         <tr>
                                             <td>POS-00012349</td>
@@ -234,7 +248,10 @@
                                             <td>KARTU GAMING TELKOMSEL</td>
                                             <td>2023/05/21</td>
                                             <td>1</td>
-                                            <td><button type="button" class="btn btn-info">Warehouse</button></td>
+                                            <td><button type="button" class="btn btn-info btn-sm">Warehouse</button>
+                                            </td>
+                                            <td><button type="button" class="btn btn-outline-secondary btn-sm"
+                                                    data-toggle="modal" data-target="#detailModal">Detail</button>
                                         </tr>
                                         <tr>
                                             <td>POS-00012350</td>
@@ -242,7 +259,10 @@
                                             <td>KARTU TELKOMSEL</td>
                                             <td>2023/05/20</td>
                                             <td>1</td>
-                                            <td><button type="button" class="btn btn-warning">Process</button></td>
+                                            <td><button type="button" class="btn btn-warning btn-sm">Process</button>
+                                            </td>
+                                            <td><button type="button" class="btn btn-outline-secondary btn-sm"
+                                                    data-toggle="modal" data-target="#detailModal">Detail</button>
                                         </tr>
                                         <tr>
                                             <td>POS-00012351</td>
@@ -250,7 +270,10 @@
                                             <td>KARTU GAMING TELKOMSEL</td>
                                             <td>2023/05/21</td>
                                             <td>1</td>
-                                            <td><button type="button" class="btn btn-info">Warehouse</button></td>
+                                            <td><button type="button" class="btn btn-info btn-sm">Warehouse</button>
+                                            </td>
+                                            <td><button type="button" class="btn btn-outline-secondary btn-sm"
+                                                    data-toggle="modal" data-target="#detailModal">Detail</button>
                                         </tr>
                                         <tr>
                                             <td>POS-00012352</td>
@@ -258,7 +281,10 @@
                                             <td>KARTU DATA TELKOMSEL</td>
                                             <td>2023/05/22</td>
                                             <td>1</td>
-                                            <td><button type="button" class="btn btn-info">Warehouse</button></td>
+                                            <td><button type="button" class="btn btn-info btn-sm">Warehouse</button>
+                                            </td>
+                                            <td><button type="button" class="btn btn-outline-secondary btn-sm"
+                                                    data-toggle="modal" data-target="#detailModal">Detail</button>
                                         </tr>
                                     </tbody>
                                 </table>
@@ -281,12 +307,12 @@
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Ready to Leave?</h5>
+                    <h5 class="modal-title" id="exampleModalLabel">Apakah anda ingin keluar?</h5>
                     <button class="close" type="button" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">×</span>
                     </button>
                 </div>
-                <div class="modal-body">Kembali ke halaman login</div>
+                <div class="modal-body">Klik Logout anda Akan kembali ke halaman login</div>
                 <div class="modal-footer">
                     <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
                     <a class="btn btn-primary" href="login.html">Logout</a>
@@ -295,22 +321,68 @@
         </div>
     </div>
 
-    <!-- Bootstrap JavaScript-->
-    <script src="../vendor/jquery/jquery.min.js"></script>
-    <script src="../vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- Detail Pengiriman Alert -->
+    <div class="modal fade" id="detailModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">DETAIL PENGIRIMAN</h5>
+                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">×</span>
+                    </button>
+                </div>
+                <div class="container">
+                    <div class="row align-items-start">
+                        <div class="col">
+                            <strong>Penerima</strong>
+                            <p>Jono Budiawan</p>
+                        </div>
+                        <div class="col">
+                            <strong>No Order</strong>
+                            <p>CPOS-00054325</p>
+                        </div>
+                    </div>
 
-    <!-- Plugin JavaScript-->
-    <script src="../vendor/jquery-easing/jquery.easing.min.js"></script>
+                    <div class="row align-items-start">
+                        <div class="col">
+                            <strong>Pengirim</strong>
+                            <p>Budi Ibudi <br> 0851-5656-8998</p>
+                        </div>
+                        <div class="col">
+                            <img class="img-barcode" src="../assets/images/barcode.webp">
+                        </div>
+                    </div>
 
-    <!-- Custom scripts for all pages-->
-    <script src="../js/sb-admin-2.min.js"></script>
+                    <div class="row align-items-start">
+                        <div class="col">
+                            <strong>Item</strong>
+                            <p>1 x Kartu Gaming Telkomsel</p>
+                        </div>
+                    </div>
 
-    <!-- Page level plugins -->
-    <script src="../vendor/datatables/jquery.dataTables.min.js"></script>
-    <script src="../vendor/datatables/dataTables.bootstrap4.min.js"></script>
+                    <div class="modal-body">
+                    </div>
+                </div>
+            </div>
+        </div>
 
-    <!-- Page level custom scripts -->
-    <script src="../js/demo/datatables-demo.js"></script>
+        <!-- Bootstrap JavaScript-->
+        <script src="../vendor/jquery/jquery.min.js"></script>
+        <script src="../vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+        <!-- Plugin JavaScript-->
+        <script src="../vendor/jquery-easing/jquery.easing.min.js"></script>
+
+        <!-- Custom scripts for all pages-->
+        <script src="../js/sb-admin-2.min.js"></script>
+
+        <!-- Page level plugins -->
+        <script src="../vendor/datatables/jquery.dataTables.min.js"></script>
+        <script src="../vendor/datatables/dataTables.bootstrap4.min.js"></script>
+
+        <!-- Page level custom scripts -->
+        <script src="../js/demo/datatables-demo.js"></script>
 </body>
 
 </html>

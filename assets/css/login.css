@@ -2,73 +2,25 @@ body {
   background-color: #4e73df;
 }
 
-.login {
-  width: 450px;
-  background: whitesmoke;
-  padding: 15px 40px;
-  border-top-right-radius: 20px;
-  border-top-left-radius: 20px;
-  border-bottom-right-radius: 20px;
-  border-bottom-left-radius: 20px;
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  box-sizing: border-box;
+.box-area {
+  width: 930px;
 }
 
-.login h1 {
-  text-align: center;
+.back-to-home {
   color: #4e73df;
-  font-size: 30px;
-  margin-bottom: 10px;
-}
-
-.login p {
-  text-align: center;
-  color: #4e73df;
-  font-family: "Courier Prime", monospace;
-}
-
-.login a {
   text-decoration: none;
 }
 
-.login label {
-  color: #4e73df;
-  font-family: "Courier Prime", monospace;
-}
-
-.input {
-  color: #627aa6;
-  border-bottom: 2px solid;
-  position: relative;
-  margin: 30px 0;
-}
-
-.input input {
-  font-size: 20px;
-  color: #4e73df;
-  border: none;
-  width: 100%;
-  outline: none;
-  background: none;
-  padding: 0 10px;
-  height: 40px;
-}
 
 .btn {
+  font-size: 20px !important;
   display: block;
-  width: 40%;
-  height: 45px;
-  border: none;
+  width: 50%;
+  height: 50px;
   background-color: #4e73df;
-  color: whitesmoke;
   outline: none;
   cursor: pointer;
   margin: 20px 110px 10px;
   border-radius: 10px;
-  font-size: 25px;
   letter-spacing: 1px;
-  font-family: "Courier Prime", monospace;
 }

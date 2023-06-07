@@ -12071,6 +12071,10 @@ a:focus {
   width: 100%
 }
 
+.img-barcode {
+  width: 50%;
+}
+
 @media (min-width:768px) {
   .chart-area {
     height: 20rem
